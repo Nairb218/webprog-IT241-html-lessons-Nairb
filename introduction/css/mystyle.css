@@ -1,13 +1,13 @@
 body {
-  background-color: rgba(172, 255, 251, 0.712);
+  background-color: rgba(185, 247, 244, 0.714);
 }
 
 h1 {
-  color: rgb(0, 0, 54);
+  color: navy;
   margin-left: 20px;
 }
 
 p {
   text-align: right;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
 }
