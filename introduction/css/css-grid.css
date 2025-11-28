@@ -6,9 +6,21 @@
   gap: 5px;
 }
 .container div {
-  background-color: #f1f1f1;
+  background-color: #dcf7ff;
   color: #000;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
+  border-radius: 16px;
+  text-shadow: 4px 3px 4px #546e80;
   text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
 }
