@@ -24,6 +24,8 @@ body {
   background-color: rgb(75, 102, 255);
   text-align: center;
   color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
 }
 
 .header > h1 {
@@ -66,9 +68,9 @@ body {
 
 .facts {
   grid-area: facts;
-  border: 1px solid #0099cc;
-  background-color: rgb(255, 255, 179);
-  padding: 10px;
+  border: 2px solid #023f53;
+  background-color: rgb(4, 108, 134);
+  padding: 20px;
 }
 
 .facts > h2 {
@@ -81,7 +83,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: #245363;
+  background-color: #3b788d;
   color: #ffffff;
   text-align: center;
 }
