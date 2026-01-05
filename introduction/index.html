@@ -1,64 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="css/rwd.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WEBPROG IT241</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBPROG IT241 | Nairb's Profile Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="grid-container">
- 
-<div class="header">sofishy's Profile Web page</div>
- 
-<div class="menu">
-<ul>
-<li>About Me</li>
-<li>Education</li>
-<li>Course</li>
-<li>IT Experience</li>
-<li>Hobbies & Interests</li>
-<li>Goals In Life/Dream</li>
-</ul>
+<div class="main-wrapper">
+
+    <aside class="sidebar">
+        <div class="profile-header">
+            <div class="img-container">
+                <img src="eren-depress.jpg" alt="Profile">
+            </div>
+            <h1>Nairb's Profile Website</h1>
+            <p class="role">WEBPROG IT241</p>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#course" class="nav-link">Course</a></li>
+                <li><a href="#experience" class="nav-link">IT Experience</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies & Interests</a></li>
+                <li><a href="#goals" class="nav-link">Goals In Life/Dream</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>&copy; Nairb</p>
+        </div>
+    </aside>
+
+    <main class="content">
+        
+        <header class="mobile-header">Nairb's Profile Web page</header>
+
+        <section id="about" class="portfolio-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="card">
+                <ul>
+                    <li>Musika and buhay na aking tinataglay; ito rin ang dahilan kung bat ako naglalakbay</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="portfolio-section">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <ul>
+                    <li>Graduated Junior and Senior High School at Pasay City South High School</li>
+                    <li>2nd year college at Asia Pacific College</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="course" class="portfolio-section">
+            <h2 class="section-title">Course</h2>
+            <div class="card">
+                <ul>
+                    <li>Bachelor of Science in Information Technology</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="portfolio-section">
+            <h2 class="section-title">IT Experience</h2>
+            <div class="card">
+                <ul>
+                    <li>Gaming</li>
+                    <li>Cybersecurity Seminar</li>
+                    <li>LinkedIn Certifications</li>
+                    <li>Basic HTML and CSS coding</li>
+                    <li>Basic Python coding</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="hobbies" class="portfolio-section">
+            <h2 class="section-title">Hobbies & Interests</h2>
+            <div class="card">
+                <ul>
+                    <li>Playing band instruments</li>
+                    <li>Listening to music</li>
+                    <li>Playing mobile games</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="goals" class="portfolio-section">
+            <h2 class="section-title">Goals In Life/Dream</h2>
+            <div class="card">
+                <ul>
+                    <li>Have time and financial freedom</li>
+                    <li>Be able to produce my own music</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="facts-section">
+            <div class="facts-box" id="magic-box">
+                <h3>Rescource Documentation:</h3>
+                <ul>
+                    <li>Color Palette: <a href="https://colorhunt.co/palette/21344854779294b4c1ecefca">Color Hunt - Navy Blue</a></li>
+                    <li>Fonts: <a href="https://fonts.google.com/specimen/Poppins">Google Fonts (Poppins)</a></li>
+                    <li>Profile Image: <a href="https://pin.it/1qpuos1IH">Pinterest - Eren Jeager</a></li>
+                    <li>AI Assistance: Developed with the help of Gemini AI. <a href="https://gemini.google.com/app/de3383c66ad0cf3b">Gemini AI</a></li>
+                </ul>
+                <div id="resize-feedback" style="margin-top:10px; font-weight:bold; color:#213448;"></div>
+            </div>
+        </section>
+
+    </main>
+
 </div>
- 
-<div class="content">
-<h1>About Me</h1>
-<ul>
-<li>Simpleng gwapo na mahilig sa musika mwehehehe</li>
-</ul>
-<h2>Education</h2>
-<ul>
-<li>2nd year college</li>
-</ul>
-<h3>Course</h3>
-<ul>
-<li>Bachelor of Science in Information Technology</li>
-</ul>
-<h4>IT Experience</h4>
-<ul>
-<li>Gaming, Cybersecurity Seminar, LinkedIn Certifications</li>
-</ul>
-<h5>Hobbies & Interests</h5>
-<ul>
-<li>Playing band instruments</li>
-</ul>
-<h5>Goals In Life/Dream</h5>
-<ul>
-<li>Have time and financial freedom, and be able to produce my own music</li>
-</ul>
-</div>  
- 
-<div class="facts">
-<h7>Fun fact:</h7>
-<ul>
-<li>If you resize the screen, magic will happen :)</li>
-<p>TRY IT!!!</p>
-</ul>
-</div>
- 
-<div class="footer"><p><img src="Eren.jpg"></p></div>
-</div>
- 
+
+<script src="script.js"></script>
 </body>
 </html>
